@@ -1,1 +1,1 @@
-http://www.mycalculator2732.com/
+http://www.mycalculator2732.com

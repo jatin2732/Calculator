@@ -1,1 +1,70 @@
 
+body{
+    background-color: rgb(83, 89, 89);
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    font-family:sans-serif;
+    -webkit-text-stroke: 3px black;
+    color: transparent;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDCcN69mp0N7Vi45I_OAKdDIRFqZRXitqZewHSKgcT&s);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.container{
+    margin: 0 auto;
+    width: 500px;
+    /* height: 600px; */
+    /* height: 73vh; */
+    /* border: 5px solid black; */
+    border-radius: 10px;
+    background-color: black;
+    padding: 5px 5px;
+    border: 2px solid rgb(4, 135, 85);
+    box-shadow: -10px -10px 50px rgb(91, 125, 167);
+}
+input{
+    color: red;
+}
+#result{
+    /* width: 499px; */
+    height: 80px;
+    background-color: black;
+    font-size: 32px;
+    text-align: end;
+    /* margin: 5px; */
+
+    /* border: 2px solid red; */
+}
+.buttonCage{
+    width: 499px;
+    height: 70vh;
+    background-color: black;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+    
+}
+button{
+    margin-top: 10px;
+    width: 90px;
+    height: 60px;
+    font-size: 32px;
+    border-radius: 15px;
+    border: transparent;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgb(109, 137, 161)
+}
+
+button:hover{
+ background-color: grey;
+ box-shadow: 5px 5px 5px aqua;
+ transition: .21s ease-in-out;
+}

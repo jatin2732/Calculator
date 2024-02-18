@@ -1,1 +1,1 @@
-http://www.mycalculator2732.com
+https://jatin2732.github.io/Calculator/
